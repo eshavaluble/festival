@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+"use client"
+
+// Inspired by react-hot-toast library
 import * as React from "react"
 
 import type {
@@ -15,7 +19,6 @@ type ToasterToast = ToastProps & {
   action?: ToastActionElement
 }
 
-
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
   UPDATE_TOAST: "UPDATE_TOAST",
@@ -26,7 +29,7 @@ const actionTypes = {
 let count = 0
 
 function genId() {
-  count = (count + 1) % Number.MAX_VALUE
+  count = (count + 1) % Number.MAX_SAFE_INTEGER
   return count.toString()
 }
 

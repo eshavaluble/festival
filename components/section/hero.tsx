@@ -29,28 +29,31 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/placeholder.svg?height=1080&width=1920')"}}>
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+    <section className="relative min-h-screen w-full overflow-hidden bg-gray-900 text-white">
+      
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50" style={{backgroundImage: "url('https://ap3xadopsrl8habm.public.blob.vercel-storage.com/Landing%20Page%20(Clear)%20(14)%201-aQKyh4IR9CQTPlntwpX2xwgZG0F5NC.png')"}}></div>
       <div className="relative z-10 flex flex-col min-h-screen">
         <nav className="flex items-center justify-between px-4 py-6 md:px-8 lg:px-16">
           <div className="flex items-center space-x-4">
             <Image
-              src="/placeholder.svg?height=50&width=100"
+              src="https://ap3xadopsrl8habm.public.blob.vercel-storage.com/logo%20(2)-sestfziXViH7fBN1sblxcIwlOKio9i.png"
               alt="Airdropfest Logo"
               width={100}
               height={50}
             />
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="text-white hover:text-gray-200 transition-colors">
-              Become Sponsor
-            </Link>
-            <Link href="#" className="text-white hover:text-gray-200 transition-colors">
-              Onboard
-            </Link>
-            <Link href="#" className="text-white hover:text-gray-200 transition-colors">
-              Guide
-            </Link>
+            <div className="bg-white bg-opacity-20 backdrop-blur-lg rounded-full px-6 py-2 flex items-center space-x-8">
+              <Link href="#" className="text-white hover:text-gray-200 transition-colors">
+                Become Sponsor
+              </Link>
+              <Link href="#" className="text-white hover:text-gray-200 transition-colors">
+                Onboard
+              </Link>
+              <Link href="#" className="text-white hover:text-gray-200 transition-colors">
+                Guide
+              </Link>
+            </div>
           </div>
           <div className="hidden md:block">
             <Button
@@ -62,6 +65,7 @@ export default function Hero() {
           <button
             className="md:hidden text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            title="Toggle Menu"
           >
             <Menu />
           </button>
@@ -88,11 +92,11 @@ export default function Hero() {
         )}
         <div className="flex-grow flex flex-col items-center justify-center">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+            <h1 className="text-4xl md:text-8xl font-bold mb-1 text-white">
               AIRDROPFEST 2025
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white">
-              World's Largest and First Crypto Airdrop Festival
+              World&apos;s Largest and First Crypto Airdrop Festival
             </p>
           </div>
         </div>

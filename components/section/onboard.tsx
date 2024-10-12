@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { ChevronDownIcon } from 'lucide-react'
 
 const roles = [
-  { name: 'Sponsor', image: '/images/sponsor.jpg', link: '/sponsor' },
-  { name: 'Speaker', image: '/images/speaker.jpg', link: '/speaker' },
-  { name: 'Media Partner', image: '/images/media-partner.jpg', link: '/media-partner' },
-  { name: 'Community Partner', image: '/images/community-partner.jpg', link: '/community-partner' },
+  { name: 'Sponsor', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/get-involve-assets/sponsor-gwqorsvusvgms2YAm9tBdHQ6ZH8Tkm.png', link: '/sponsor' },
+  { name: 'Speaker', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/get-involve-assets/speaker-4MMPergkG5lCCnbb8XwYa8IJPgje8T.png', link: '/speaker' },
+  { name: 'Media Partner', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/get-involve-assets/media%20partner-6fFUDwAkrfWO03VdT8oCExTWwltO33.png', link: '/media-partner' },
+  { name: 'Community Partner', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/get-involve-assets/community%20partner-3DudNleQqBUcs1Gi9Ke7us83WDmKWz.png', link: '/community-partner' },
 ]
 
 const faqs = [

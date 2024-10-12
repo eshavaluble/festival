@@ -6,7 +6,7 @@ const eventCards = [
   { title: 'KEYNOTES AND PANELS', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/keynotes-panel-IrUAwNjxvP4fxqhssw238mldn2ItlM.png' },
   { title: 'PROJECT SHOWCASE', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/(in)side-event-u5tykPJnzI0KPoZRFVtRIg5VGfAYE5.png' },
   { title: 'REAL-LIFE AIRDROP', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/real-life-airdrop-dmDBvTgvlXiRl9iR68wvUHmliMh9Xj.png' },
-  { title: '(IN)SIDE EVENT', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/(in)side-event-u5tykPJnzI0KPoZRFVtRIg5VGfAYE5.png' },
+  { title: 'SIDE EVENT', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/(in)side-event-u5tykPJnzI0KPoZRFVtRIg5VGfAYE5.png' },
   { title: 'GAMES', image: 'https://ap3xadopsrl8habm.public.blob.vercel-storage.com/whats-in-airdropfest-assets/games-9QZUJgTggLK8pWv0lYGbNCZvpZujc6.png' },
 ]
 
